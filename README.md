@@ -1,17 +1,17 @@
-This is 3.10.x MT6580 kernel source ported to be used on DEXP Ixion P350.
+This is 3.10.x MT6580 kernel source ported to be used on LENOVO TB3-710i.
 
-Known information
-Subsystem	Driver name	Availability	Working
-LCM driver nt35521_hd720_dsi_vdo_rixin	Yes	Yes
-Touch panel	GT9XX (i2c 1-005D)	Yes	Yes
-GPU	Mali-400 MP	Yes	Yes
-Camera #1	imx219_mipi_raw	Yes	Yes
-Camera #2	gc2755_mipi_raw	Yes	Yes
-Accelerometer	MC3XXX (i2c 2-004c)	Yes	Yes
-ALS/PS	stk3x1x (i2c 2-0048)	Yes	Yes
-Flash	Samsung F722MB	Yes	Yes
-Lens #1	DW9714AF (i2c 0-0018)	Yes	Yes
-Lens #2	BU6424AF (i2c 0-0019)	Yes	Yes
-RAM	1 GB LPDDR3_1066	-	Yes
-Sound	mtsndcard	-	Yes
-Other	kd_camera_hw (i2c 0-007f)	-	Yes
+## Known information
+| Subsystem | Driver name | Availability | Working |
+|-----------|-------------|--------------|---------|
+| LCM driver | `hx8282_a01_lvds_dpi_vdo` | Yes | Yes |
+| Touch panel | `GT9XXTB_hotknot` | Yes | Yes |
+| GPU | `Mali-400 MP` | Yes | Yes |
+| Camera #1 | `sp2508_mipi_raw` | Yes | Yes |
+| Camera #2 | `sp0a20_mipi_yuv` | Yes | Yes |
+| Accelerometer | `KXTJ2_1009` | Yes | Yes |
+| Flash | `Samsung F722MB` | Yes | Yes |
+| RAM | `1 GB LPDDR3_1066` | - | Yes |
+| Sound | `mtsndcard` | - | Yes |
+| Other | `kd_camera_hw` | - | Yes |
+| Other | `iqs263` | - | Yes |
+| Other | `sn65dsi83` | - | Yes |
